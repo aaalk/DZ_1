@@ -6,6 +6,7 @@ using namespace std;
 
 int main()
 {
+    setlocale(LC_ALL, "");
     double b = 0, c = 0;
     cout << "Введите два числа: " << endl;
     cin >> b >> c;
@@ -15,4 +16,5 @@ int main()
     else {
         cout << "Нет решений";
     }
+    return 0;
 }
