@@ -6,6 +6,7 @@ using namespace std;
 
 int main()
 {
+    setlocale(LC_ALL, "");
     double a = 0, b = 0;
     cout << "Введите 2 числа a и b: " << endl;
     cin >> a >> b;
@@ -25,5 +26,6 @@ int main()
     else {
         cout << "Делить на 0 нельзя" << "\n";
     }
+    return 0;
 }
 
