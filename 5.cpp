@@ -6,6 +6,7 @@ using namespace std;
 
 int main()
 {
+    setlocale(LC_ALL, "");
     int den = 0, sht = 0, lampa = 0;
     cout << "если на улице день введите '1', иначе - '0'" << endl;
     cin >> den;
@@ -20,4 +21,5 @@ int main()
         cout << "В комнате темно" << endl;
 
     }
+    return 0;
 }
