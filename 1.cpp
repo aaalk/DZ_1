@@ -8,4 +8,5 @@ int main()
 {
     setlocale(LC_ALL, "");
     cout << "Неклеенова Елена";
+    return 0;
 }
